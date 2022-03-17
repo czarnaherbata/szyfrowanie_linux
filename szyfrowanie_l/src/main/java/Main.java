@@ -28,7 +28,8 @@ public class Main {
         }
         for(int i=0;i<lenght;i++)
         System.out.println(key[i]);
-        MatrixEnsctypt.EncryptMatrix(word, key);
+       // MatrixEnsctypt.EncryptMatrix(word, key);
+        MatrixDescrypt.DescMatrix(word,key);
 
 
     }

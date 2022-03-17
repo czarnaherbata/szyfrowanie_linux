@@ -12,6 +12,14 @@ public class MatrixEnsctypt {
             for(int j=0;j<N;j++)
             {
                 if(position<word.length())
+                    table[i][j]=word.charAt(position++);
+            }
+        }
+        for(int i=0; i<N; i++)
+        {
+            for(int j=0;j<N;j++)
+            {
+                if(position<word.length())
                 table[i][j]=word.charAt(position++);
             }
         }
