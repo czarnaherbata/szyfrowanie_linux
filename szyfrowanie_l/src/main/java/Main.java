@@ -9,8 +9,8 @@ public class Main {
         System.out.println("Wprowadz kod:");
         int key=s.nextInt();
 
-
-        CesarEncrypt.EncryptCesar(word,key);
+        CesarDesc.DescCesar(word,key);
+       // CesarEncrypt.EncryptCesar(word,key);
        // int key2 =s.nextInt();
        // FenceEncrypt.EncryptFence(word, key);
        // FenceDesc.DescFence(word, key1);
